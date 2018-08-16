@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_grocery"
+            android:icon="@drawable/tomato"
+            android:title="Grocessories" />
+        <item
+            android:id="@+id/nav_fruits"
+            android:icon="@drawable/strawberry"
+            android:title="Fruits" />
+        <item
+            android:id="@+id/nav_vegitables"
+            android:icon="@drawable/nav_vegitables"
+            android:title="Vegitables" />
+
+        <item
+            android:id="@+id/my_profile"
+            android:title="My Profile"
+            android:icon="@drawable/nav_profile"/>
+        <item
+            android:id="@+id/track_order"
+            android:title="Track MyOrder"
+            android:icon="@drawable/nav_location"/>
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/nav_logout"
+            android:title="Logout" />
+    </group>
+
+   <!-- <item android:title="Communicate">
+        <menu>
+
+            <item
+                android:id="@+id/my_profile"
+                android:title="My Profile"
+                android:icon="@drawable/nav_profile"/>
+            <item
+                android:id="@+id/track_order"
+                android:title="Track MyOrder"
+                android:icon="@drawable/nav_location"/>
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/nav_logout"
+                android:title="Logout" />
+        </menu>
+    </item>-->
+
+</menu>

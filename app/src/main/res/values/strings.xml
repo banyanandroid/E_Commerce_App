@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">E_Commerce_App</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="action_Cart">Cart</string>
+
+
+    <!-- Toolbar titles when navigation menu item is selected -->
+    <string-array name="nav_item_activity_titles">
+
+        <item>HOME</item>
+        <item>GROCESSORIES</item>
+        <item>FRUITS</item>
+        <item>VEGITABLES</item>
+        <item>MY PROFILE</item>
+        <item>TRACK ORDER</item>
+        <item>LOGOUT</item>
+
+    </string-array>
+
+    // category list
+    <string-array name="spinner_item">
+        <item>Category</item>
+        <item>Fruits</item>
+        <item>Vegitables</item>
+        <item>Seeds</item>
+        <item>Rice</item>
+        <item>Domestic Item</item>
+        <item>Fashion Dress</item>
+        <item>Jewellery</item>
+    </string-array>
+
+    // demo animation
+    <string name="wheel">Steering Wheel</string>
+    <string name="ground">The Ground</string>
+    <string name="window">Window Frame</string>
+    <string name="sun">The Sun</string>
+    <string name="cloud">A Cloud</string>
+</resources>

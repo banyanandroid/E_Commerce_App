@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/view_container"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/nav_header_height"
+    android:orientation="vertical"
+    android:background="#54000000"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <ImageView
+        android:id="@+id/img_header_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+
+   <LinearLayout
+       android:id="@+id/header_click"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/img_profile"
+            android:layout_width="115dp"
+            android:layout_height="125dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/profileimg"/>
+        <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp">
+        <TextView
+            android:id="@+id/profile_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Profile Name"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <TextView
+            android:layout_below="@+id/profile_name"
+            android:id="@+id/profile_information"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Information"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryDark" />
+    </RelativeLayout>
+</LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:visibility="gone">
+            <TextView
+                android:id="@+id/myProfile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dip"
+                android:textStyle="bold"
+                android:layout_marginLeft="5dp"
+                android:text="MyProfile"/>
+
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="|"
+                 android:layout_marginLeft="3dp"/>
+
+            <TextView
+                android:id="@+id/trackOrder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dip"
+                android:textStyle="bold"
+                android:layout_marginLeft="5dp"
+                android:text="Track MyOrder"/>
+
+           <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="|"
+            android:layout_marginLeft="2dp"/>
+
+            <TextView
+                android:id="@+id/logOut"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dip"
+                android:textStyle="bold"
+                android:layout_marginLeft="3dp"
+                android:text="Logout"/>
+
+           <!-- <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="|"
+                android:layout_marginLeft="2dp"/>-->
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+       <!--<item
+        android:id="@+id/spinner"
+        android:title="ActionBar Spinner"
+        app:actionViewClass="android.widget.Spinner"
+        android:background="#ff00"
+        app:showAsAction="always" />-->
+
+    <!--<item android:id="@+id/action_search"
+        android:title="action_search"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom"
+        android:icon="@android:drawable/ic_menu_search" />-->
+
+    <item
+        android:id="@+id/search"
+        android:icon="@android:drawable/ic_menu_search"
+        app:showAsAction="always|collapseActionView"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        android:title="Search"/>
+
+</menu>
